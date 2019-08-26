@@ -1,7 +1,7 @@
 Name:            pulse-simple
-Cabal-Version:   >=1.2
+Cabal-Version:   >=1.6
 Version:         0.1.15
-Author:          Daiki Handa
+Author:          Daiki Handa, Manuel Bärenz
 Maintainer:      programming@manuelbaerenz.de
 Synopsis:        Binding to Simple API of pulseaudio
 Build-Type:      Simple
@@ -14,6 +14,9 @@ Description:
   Although this package does not provide advanced features and some not-so-advanced features like
   volume control, it is enough for simple prototype applications.
   Confirmed to work on Linux with GHC 6.8 to 8.6.
+source-repository head
+  type:     git
+  location: git@github.com:turion/pulse-simple.git
 
 Library
     Extensions: ForeignFunctionInterface
